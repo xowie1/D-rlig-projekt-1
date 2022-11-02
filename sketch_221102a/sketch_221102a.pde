@@ -1,6 +1,7 @@
 //Kalder klassen op giver den navnet "spiller"
 Spiller spiller;
 Forhindring forhindring;
+//hejhejhejhej
 
 void setup(){
 size(600,600);
