@@ -11,7 +11,11 @@ class Spiller{
   
   //Viser cirkel
   void show(){
+    push();
+    noStroke();
+    fill(230,150,200);
     circle(x,y,d);
+    pop();
   }
   
   //Flyt til venstre

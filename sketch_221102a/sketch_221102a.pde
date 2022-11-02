@@ -7,7 +7,7 @@ spiller = new Spiller();
 }
 
 void draw(){
-background(150,220,150);
+background(215,244,192);
 
 //Tegner spiller
 spiller.show();
