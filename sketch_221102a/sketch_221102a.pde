@@ -1,16 +1,22 @@
-//her smiddes navnet på klassen og gir den et navn i main den kan gå til klassen gennem.
+//Kalder klassen op giver den navnet "spiller"
 Spiller spiller;
-Forhindring forhindring;
 
 void setup(){
 size(600,600);
 spiller = new Spiller();
-forhindring = new Forhindring();
 }
 
 void draw(){
-background(150,220,150);
-spiller.show();
-forhindring.show();
+background(215,244,192);
 
+//Tegner spiller
+spiller.show();
+}
+
+//Flyt med spiller
+void keyPressed(){
+  spiller.moveA(key);
+  spiller.moveD(key);
+  spiller.moveW(key);
+  spiller.moveS(key);
 }
