@@ -1,5 +1,6 @@
 class Spiller{
   
+  //Definere variabler
   int x,y,d;
   
   Spiller(){
@@ -8,10 +9,12 @@ class Spiller{
     d = 20;  
   }
   
+  //Viser cirkel
   void show(){
     circle(x,y,d);
   }
   
+  //Flyt til venstre
   void moveA(int keya){
     if(keya == 'a' || keya == 'A'){
       x+=-d;
@@ -21,6 +24,7 @@ class Spiller{
     }
   }
   
+  //Flyt til højre
   void moveD(int keyd){
     if(keyd == 'd' || keyd == 'D'){
       x+=d;
@@ -30,6 +34,7 @@ class Spiller{
     }
   }
   
+  //Flyt op
   void moveW(int keyw){
     if(keyw == 'w' || keyw == 'W'){
       y+=-d;
@@ -39,6 +44,7 @@ class Spiller{
     }
   }
   
+  //Flyt ned
   void moveS(int keys){
     if (keys == 's' || keys == 'S'){
       y+=d;
