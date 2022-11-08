@@ -19,5 +19,9 @@ class Forhindring{
     pop();
   
   }
+void update(){
+  
+  
+}
 
 }
