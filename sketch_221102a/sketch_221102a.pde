@@ -5,6 +5,7 @@ int interval = 2000;
 Spiller spiller;
 //Forhindring forhindring;
 Point point; 
+Spawner spawner;
 //hejhejhejhej
 int timeStamp;
 
@@ -17,8 +18,10 @@ point = new Point();
 timeStamp = millis();
 // i starter ved 0, skal fortsætte indtil 6, og skal gå med et skridt af gangen
 for(int i = 0; i < 6; i++){
-  
 }
+
+spawner = new Spawner();
+
 }
 
 void draw(){
@@ -28,6 +31,7 @@ background(215,244,192);
 spiller.show();
 //forhindring.show();
 point.show();
+spawner.point();
 
 
 //timer til missiler

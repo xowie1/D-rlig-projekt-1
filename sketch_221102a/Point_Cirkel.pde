@@ -1,11 +1,12 @@
 class Point{
   
-  float x,y,d;
+  float x,y,d,a;
 
   Point(){
     x = random(15,width-15);
     y = random(15,height-15);
     d = 10; 
+ 
   }
   
   void show(){
@@ -14,4 +15,13 @@ class Point{
     circle(x,y,d);
   }
   
+  void point(){
+    a = dist(x,y,spiller.x,spiller.y);
+    if(a<20){
+      x=random(15,width-15);
+      y=random(15,height-15);
+   
+  }
+  
+}
 }
