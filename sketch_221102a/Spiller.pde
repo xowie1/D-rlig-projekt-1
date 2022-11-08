@@ -20,10 +20,6 @@ class Spiller{
     
   }
 
-
-
- 
-  
   //Flyt til venstre
   void moveA(int keya){
     if(keya == 'a' || keya == 'A'){
