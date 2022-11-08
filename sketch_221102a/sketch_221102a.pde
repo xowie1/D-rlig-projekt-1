@@ -4,7 +4,6 @@
 Spiller spiller;
 Forhindring forhindring;
 Point point; 
-Spawner spawner;
 //hejhejhejhej
 
 void setup(){
@@ -12,7 +11,6 @@ size(600,600);
 spiller = new Spiller();
 //forhindring = new Forhindring();
 point = new Point();
-spawner = new Spawner();
 }
 
 void draw(){
@@ -22,7 +20,6 @@ background(215,244,192);
 spiller.show();
 //forhindring.show();
 point.show();
-spawner.point();
 
 }
 
