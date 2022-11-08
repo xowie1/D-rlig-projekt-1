@@ -3,13 +3,15 @@ class Point{
   float x,y,d;
 
   Point(){
-    x = random(width);
-    y = random(height);
-    d = 5; 
+    x = random(15,width-15);
+    y = random(15,height-15);
+    d = 10; 
   }
   
   void show(){
-  circle(x,y,d);
+    fill(216,158,232);
+    noStroke();
+    circle(x,y,d);
   }
   
 }
