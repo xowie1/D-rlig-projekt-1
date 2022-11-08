@@ -1,12 +1,13 @@
 class Spiller{
   
   //Definere variabler
-  int x,y,d;
+  float x,y,d;
   
   Spiller(){
     x = width/2;
     y = height-40; 
-    d = 20;  
+    d = 20; 
+    
   }
   
   //Viser cirkel
@@ -16,7 +17,12 @@ class Spiller{
     fill(230,150,200);
     circle(x,y,d);
     pop();
+    
   }
+
+
+
+ 
   
   //Flyt til venstre
   void moveA(int keya){
