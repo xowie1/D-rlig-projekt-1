@@ -1,5 +1,4 @@
 class Forhindring{
-  
   float x;
   float y;
   int d;
