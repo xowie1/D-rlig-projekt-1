@@ -1,6 +1,6 @@
 class Point{
   
-  float x,y,d,a,pt;
+  float x,y,d,a;
 
   Point(){
     x = random(15,width-15);
