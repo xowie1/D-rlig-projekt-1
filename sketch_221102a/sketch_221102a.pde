@@ -33,6 +33,7 @@ spiller.show();
 //forhindring.show();
 point.show();
 spawner.point();
+spawner.pointText();
 
 
 //timer til missiler
