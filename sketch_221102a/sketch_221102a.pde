@@ -25,6 +25,7 @@ spawner = new Spawner();
 }
 
 void draw(){
+  
 background(215,244,192);
 
 //Tegner spiller
