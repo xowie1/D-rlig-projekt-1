@@ -9,7 +9,6 @@ Spawner spawner;
 //hejhejhejhej
 int timeStamp;
 
-
 void setup(){
 size(600,600);
 spiller = new Spiller();
@@ -17,10 +16,12 @@ forhindring.add(new Forhindring());
 point = new Point();
 
 timeStamp = millis();
-
+// i starter ved 0, skal fortsætte indtil 6, og skal gå med et skridt af gangen
 for(int i = 0; i < 6; i++){
 }
+
 spawner = new Spawner();
+
 }
 
 void draw(){
@@ -31,16 +32,13 @@ spiller.show();
 //forhindring.show();
 point.show();
 spawner.point();
-spawner.pointText();
 
 
 //timer til missiler
 if(millis()-timeStamp > interval){
-  if(forhindring.size() < 5){
 forhindring.add(new Forhindring());
 timeStamp = millis();
 println("hejhej");
-}
 }
 
 //opdataring af forhindringer
