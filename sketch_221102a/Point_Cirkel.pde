@@ -34,7 +34,7 @@ class Point{
       Forhindring temp = forhindring.get(i);
       
       //Tjekker afstand
-      if(dist(x,y,temp.x,temp.y)<20){
+      if(dist(x,y,temp.x,temp.y)<40){
         x = random(15,width-15);
         y = random(15,height-15);
       }
