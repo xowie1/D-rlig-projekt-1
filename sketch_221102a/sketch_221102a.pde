@@ -33,7 +33,7 @@ spiller.kollision();
 
 //timer til missiler
 if(millis()-timeStamp > interval){
-  if(forhindring.size() < 5){
+  if(forhindring.size() < 10){
 forhindring.add(new Forhindring());
 timeStamp = millis();
 println("hejhej");
