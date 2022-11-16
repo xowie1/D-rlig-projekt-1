@@ -4,7 +4,6 @@ int interval = 2000;
 Spiller spiller;
 //Forhindring forhindring;
 Point point; 
-//Spawner spawner;
 int timeStamp;
 
 
@@ -18,7 +17,6 @@ timeStamp = millis();
 
 for(int i = 0; i < 6; i++){
 }
-//spawner = new Spawner();
 }
 
 void draw(){
@@ -29,8 +27,7 @@ spiller.show();
 //forhindring.show();
 point.show();
 point.kollision();
-//spawner.point();
-//spawner.pointText();
+
 
 
 //timer til missiler

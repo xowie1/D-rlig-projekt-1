@@ -26,10 +26,7 @@ class Point{
     if(a<20){
       x=random(15,width-15);
       y=random(15,height-15);
-      pt = pt + 1;
-     
-    
-   
+      pt = pt + 1; 
   }
   
 }
