@@ -29,6 +29,7 @@ class Spiller{
         println("go");
         x = width/2;
         y = height-40; 
+        point.pt = point.pt - 1;
         
       }
      
