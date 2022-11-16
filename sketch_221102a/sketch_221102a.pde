@@ -27,6 +27,7 @@ spiller.show();
 //forhindring.show();
 point.show();
 point.kollision();
+spiller.kollision();
 
 
 

@@ -6,7 +6,7 @@ class Spiller{
   Spiller(){
     x = width/2;
     y = height-40; 
-    d = 20; 
+    d = 25; 
     
   }
   
@@ -18,6 +18,21 @@ class Spiller{
     circle(x,y,d);
     pop();
     
+  }
+  
+  void kollision(){
+    for(int i = 0; i < forhindring.size(); i++){
+      Forhindring temp = forhindring.get(i);
+      
+      //Tjekker afstand
+      if(dist(x,y,temp.x,temp.y)<40){
+        println("go");
+        x = width/2;
+        y = height-40; 
+        
+      }
+     
+}
   }
 
   //Flyt til venstre
