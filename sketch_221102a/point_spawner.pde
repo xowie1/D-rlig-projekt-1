@@ -1,10 +1,11 @@
 class Spawner{
-  float a,pt;
+  float a,pt,b,x,y;
 
   void spawner(){
     point.x=random(15,width-15);
     point.y=random(15,height-15);
     pt = 0;
+    
   }
   
   void point(){
@@ -19,5 +20,9 @@ class Spawner{
   void pointText(){
     textSize(40);
     text(pt,10,30);
+  }
+  
+  void update(){
+    
   }
 }
