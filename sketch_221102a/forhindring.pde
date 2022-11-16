@@ -21,7 +21,6 @@ class Forhindring{
   }
 void update(){
   
-  
 }
 
 }
