@@ -1,12 +1,10 @@
-
 ArrayList<Forhindring> forhindring = new ArrayList<Forhindring>();  
 int interval = 2000;
 //Kalder klassen op giver den navnet "spiller"
 Spiller spiller;
 //Forhindring forhindring;
 Point point; 
-Spawner spawner;
-//hejhejhejhej
+//Spawner spawner;
 int timeStamp;
 
 
@@ -20,7 +18,7 @@ timeStamp = millis();
 
 for(int i = 0; i < 6; i++){
 }
-spawner = new Spawner();
+//spawner = new Spawner();
 }
 
 void draw(){
@@ -30,8 +28,9 @@ background(215,244,192);
 spiller.show();
 //forhindring.show();
 point.show();
-spawner.point();
-spawner.pointText();
+point.kollision();
+//spawner.point();
+//spawner.pointText();
 
 
 //timer til missiler
